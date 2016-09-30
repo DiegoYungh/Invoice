@@ -1,0 +1,14 @@
+# Compiled binary addons (http://nodejs.org/api/addons.html)
+build/Release
+
+# Dependency directory
+node_modules
+
+# Users Environment Variables
+.tsdrc
+
+# IntelliJ configuration files
+.idea
+
+# Typescript Typings
+typings

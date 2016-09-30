@@ -1,0 +1,37 @@
+{
+  "name": "invoice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "webpack-dev-server --inline --hot",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@kahwee/backbone-deep-model": "git+https://github.com/kahwee/backbone-deep-model.git",
+    "backbone-deep-model": "https://github.com/kahwee/backbone-deep-model.git",
+    "backbone.validation": "^0.7.1",
+    "blueimp-tmpl": "^3.4.0",
+    "blueimp-tmpl-loader": "0.0.3",
+    "css-loader": "^0.25.0",
+    "file-loader": "^0.9.0",
+    "html-loader": "^0.4.4",
+    "materialize-css": "^0.97.7",
+    "node-sass": "^3.10.0",
+    "node-uuid": "^1.4.7",
+    "sass-loader": "^4.0.2",
+    "source-map-loader": "^0.1.5",
+    "style-loader": "^0.13.1",
+    "ts-loader": "^0.8.2",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.1"
+  },
+  "dependencies": {
+    "backbone": "^1.3.3",
+    "backbone.localstorage": "^1.1.16",
+    "jquery": "^3.1.1",
+    "lodash": "^4.16.1"
+  }
+}

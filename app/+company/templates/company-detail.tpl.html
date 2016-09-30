@@ -1,0 +1,13 @@
+<address>
+  <b>{%= o.name %}</b>
+
+  <p>{%= o.owner.firstName %} {%= o.owner.lastName %}</p>
+
+  <p>
+    {%= o.address.street %}, {%= o.address.number%}
+    <br>{%= o.address.code %}
+    <br>{%= o.address.city %}, {%= o.address.province %}
+    <br>{%= o.owner.email %}
+    <br>{%= o.owner.phone %}
+  </p>
+</address>

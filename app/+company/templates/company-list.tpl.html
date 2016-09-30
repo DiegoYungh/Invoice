@@ -1,0 +1,15 @@
+<ul class="collection with-header">
+  {% for(var index = 0; index < o.items.length; index++){ %}
+  <li class="collection-item">
+    <div>
+      {%= o.items[index].name %}
+      <a href="#" class="detail-button secondary-content" data-company-id='{%= o.items[index].id %}'>
+        <i class="material-icons">launch</i>
+      </a>
+      <a href="#" class="delete-button secondary-content" data-company-id='{%= o.items[index].id %}'>
+        <i class="material-icons">delete</i>
+      </a>
+    </div>
+  </li>
+  {% } %}
+</ul>
